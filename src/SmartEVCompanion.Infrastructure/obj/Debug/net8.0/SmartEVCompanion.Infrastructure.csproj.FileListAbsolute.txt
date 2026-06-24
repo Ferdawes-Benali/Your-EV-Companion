@@ -1,0 +1,17 @@
+C:\Users\ferda\OneDrive\Desktop\Smart EV Companion\src\SmartEVCompanion.Infrastructure\bin\Debug\net8.0\SmartEVCompanion.Infrastructure.deps.json
+C:\Users\ferda\OneDrive\Desktop\Smart EV Companion\src\SmartEVCompanion.Infrastructure\bin\Debug\net8.0\SmartEVCompanion.Infrastructure.dll
+C:\Users\ferda\OneDrive\Desktop\Smart EV Companion\src\SmartEVCompanion.Infrastructure\bin\Debug\net8.0\SmartEVCompanion.Infrastructure.pdb
+C:\Users\ferda\OneDrive\Desktop\Smart EV Companion\src\SmartEVCompanion.Infrastructure\bin\Debug\net8.0\SmartEVCompanion.Application.dll
+C:\Users\ferda\OneDrive\Desktop\Smart EV Companion\src\SmartEVCompanion.Infrastructure\bin\Debug\net8.0\SmartEVCompanion.Domain.dll
+C:\Users\ferda\OneDrive\Desktop\Smart EV Companion\src\SmartEVCompanion.Infrastructure\bin\Debug\net8.0\SmartEVCompanion.Application.pdb
+C:\Users\ferda\OneDrive\Desktop\Smart EV Companion\src\SmartEVCompanion.Infrastructure\bin\Debug\net8.0\SmartEVCompanion.Domain.pdb
+C:\Users\ferda\OneDrive\Desktop\Smart EV Companion\src\SmartEVCompanion.Infrastructure\obj\Debug\net8.0\SmartEVCompanion.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\ferda\OneDrive\Desktop\Smart EV Companion\src\SmartEVCompanion.Infrastructure\obj\Debug\net8.0\SmartEVCompanion.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ferda\OneDrive\Desktop\Smart EV Companion\src\SmartEVCompanion.Infrastructure\obj\Debug\net8.0\SmartEVCompanion.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\ferda\OneDrive\Desktop\Smart EV Companion\src\SmartEVCompanion.Infrastructure\obj\Debug\net8.0\SmartEVCompanion.Infrastructure.AssemblyInfo.cs
+C:\Users\ferda\OneDrive\Desktop\Smart EV Companion\src\SmartEVCompanion.Infrastructure\obj\Debug\net8.0\SmartEVCompanion.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\ferda\OneDrive\Desktop\Smart EV Companion\src\SmartEVCompanion.Infrastructure\obj\Debug\net8.0\SmartEVC.BD5AC70F.Up2Date
+C:\Users\ferda\OneDrive\Desktop\Smart EV Companion\src\SmartEVCompanion.Infrastructure\obj\Debug\net8.0\SmartEVCompanion.Infrastructure.dll
+C:\Users\ferda\OneDrive\Desktop\Smart EV Companion\src\SmartEVCompanion.Infrastructure\obj\Debug\net8.0\refint\SmartEVCompanion.Infrastructure.dll
+C:\Users\ferda\OneDrive\Desktop\Smart EV Companion\src\SmartEVCompanion.Infrastructure\obj\Debug\net8.0\SmartEVCompanion.Infrastructure.pdb
+C:\Users\ferda\OneDrive\Desktop\Smart EV Companion\src\SmartEVCompanion.Infrastructure\obj\Debug\net8.0\ref\SmartEVCompanion.Infrastructure.dll

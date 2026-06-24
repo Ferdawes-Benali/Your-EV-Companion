@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/SmartEVCompanion.API/SmartEVCompanion.API.csproj" />
+    <Project Path="src/SmartEVCompanion.Application/SmartEVCompanion.Application.csproj" />
+    <Project Path="src/SmartEVCompanion.Domain/SmartEVCompanion.Domain.csproj" />
+    <Project Path="src/SmartEVCompanion.Infrastructure/SmartEVCompanion.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/SmartEVCompanion.Tests/SmartEVCompanion.Tests.csproj" />
+  </Folder>
+</Solution>
