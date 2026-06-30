@@ -42,13 +42,17 @@ namespace SmartEVCompanion.API.Controllers
                 if (string.IsNullOrWhiteSpace(request.StationName) || string.IsNullOrWhiteSpace(request.UserEmail))
                     return BadRequest("Station name and user email are required");
 
-                // TODO: In a real implementation, this would:
-                // 1. Validate the request (rating 1-5, text not empty, etc.)
-                // 2. Check that user exists
-                // 3. Check that station exists
-                // 4. Save review to database
-                // 5. Update station rating
-                // 6. Check for spam/profanity
+                // Basic validation:
+                if (request.Rating.HasValue && (request.Rating < 1 || request.Rating > 5))
+                    return BadRequest("Rating must be between 1 and 5");
+
+                // Require either a rating or a review text to avoid empty submissions
+                if (!request.Rating.HasValue && string.IsNullOrWhiteSpace(request.ReviewText))
+                    return BadRequest("Either a rating or a review text is required");
+
+                // NOTE: Remaining TODO items (persisting to DB, user/station existence checks,
+                // spam/profanity checks) are left for full implementation once a persistence
+                // layer and user management are added.
 
                 // For now, simulate review saving
                 var reviewId = Guid.NewGuid();

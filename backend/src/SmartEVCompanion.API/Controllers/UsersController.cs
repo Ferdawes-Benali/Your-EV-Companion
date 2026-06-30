@@ -6,10 +6,6 @@ using System.Threading.Tasks;
 
 namespace SmartEVCompanion.API.Controllers
 {
-    /// <summary>
-    /// API endpoints for user management.
-    /// Demonstrates email integration (Welcome email on user creation).
-    /// </summary>
     [ApiController]
     [Route("api/v1/users")]
     public class UsersController : ControllerBase
@@ -25,10 +21,6 @@ namespace SmartEVCompanion.API.Controllers
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
-        /// <summary>
-        /// Creates a new user account and sends a welcome email.
-        /// This is a simplified example for demonstration.
-        /// </summary>
         [HttpPost("register")]
         [ProducesResponseType(typeof(object), StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -39,12 +31,12 @@ namespace SmartEVCompanion.API.Controllers
                 if (request == null || string.IsNullOrWhiteSpace(request.Email))
                     return BadRequest("Email is required");
 
-                // TODO: In a real implementation, this would:
-                // 1. Validate the request
-                // 2. Check for duplicate email
-                // 3. Hash password
-                // 4. Create user in database
-                // 5. Create user profile
+                // Basic email format check
+                if (!request.Email.Contains("@") || !request.Email.Contains("."))
+                    return BadRequest("A valid email address is required");
+
+                // NOTE: Remaining TODO items (duplicate checks, password hashing, persistence)
+                // should be implemented when a user store and authentication are added.
 
                 // For now, simulate user creation
                 var userId = Guid.NewGuid();
